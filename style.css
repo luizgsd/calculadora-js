@@ -1,0 +1,123 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+    font-display: swap;
+    height: inherit;
+    background-color: rgb(40, 40, 80);
+}
+
+.wrapper {
+    background-color: rgb(73, 84, 133);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+.screen {
+    background-color: rgb(154, 177, 228);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 6px;
+    height: 50px;
+    line-height: 15px;
+    color: rgba(36, 36, 59, 0.795);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.calc-button-row {
+    margin: 5px;
+}
+
+.button {
+    padding: 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(154, 177, 228);
+    color: rgba(36, 36, 59, 0.795);
+
+    &:hover {
+        background-color: rgb(135, 153, 211);
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: rgb(115, 123, 190);
+    }
+
+    &:last-child {
+        background-color: rgb(255, 166, 94);
+
+        &:hover {
+            background-color: rgb(231, 127, 79);
+        }
+
+        &:active {
+            background-color: rgb(214, 105, 71);
+        }
+    }
+}
+
+.button-double {
+    padding: 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 10px;
+    width: 110px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(154, 177, 228);
+    color: rgba(36, 36, 59, 0.795);
+
+    &:hover {
+        background-color: rgb(135, 153, 211);
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: rgb(115, 123, 190);
+    }
+}
+
+.button-triple {
+    padding: 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 10px;
+    width: 168px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(154, 177, 228);
+    color: rgba(36, 36, 59, 0.795);
+
+    &:hover {
+        background-color: rgb(135, 153, 211);
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: rgb(115, 123, 190);
+    }
+}
